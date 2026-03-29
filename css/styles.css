@@ -1,9 +1,12 @@
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-}
-
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    }
 ul {
     margin: 0;
     padding: 0;
@@ -15,16 +18,19 @@ img {
     max-width: 100%;
     height: auto;
 }
-
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
 .container {
-    width: 1158px;
+max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .visually-hidden {
@@ -51,8 +57,7 @@ img {
 
 .nav {
     display: flex;
-    align-items: center;
-    flex-grow: 1;
+        align-items: center;
 }
 
 .nav-list {
@@ -60,6 +65,8 @@ img {
     gap: 40px;
     margin-left: 76px;
 }
+
+
 
 
 
@@ -72,6 +79,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 76px;
 }
 
 .header-logo {
@@ -145,19 +153,16 @@ img {
 }
 
 .hero-button {
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-    margin: 0 auto;
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+background-color: #4d5ae5;
+    color: #ffffff;
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
 }
 
 .hero-button:hover,
@@ -184,7 +189,7 @@ img {
 }
 
 .team-card-content {
-    padding: 32px 0;
+    padding: 32px 16px;
     text-align: center;
 }
 
@@ -197,7 +202,7 @@ img {
     color: #2E2F42;
     margin-bottom: 72px;
     text-transform: capitalize;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 
 .team-name {
@@ -244,6 +249,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 72px;
 }
 
 .portfolio-title {
@@ -295,6 +301,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .features-text {
@@ -304,12 +311,3 @@ img {
     color: #434455;
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
