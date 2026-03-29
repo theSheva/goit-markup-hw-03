@@ -1,12 +1,9 @@
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-    }
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -18,19 +15,16 @@ img {
     max-width: 100%;
     height: auto;
 }
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-}
+
 .container {
-max-width: 1158px;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
 .section {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -57,7 +51,8 @@ max-width: 1158px;
 
 .nav {
     display: flex;
-        align-items: center;
+    align-items: center;
+    flex-grow: 1;
 }
 
 .nav-list {
@@ -79,7 +74,7 @@ max-width: 1158px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 76px;
+
 }
 
 .header-logo {
@@ -153,16 +148,20 @@ max-width: 1158px;
 }
 
 .hero-button {
-background-color: #4d5ae5;
-    color: #ffffff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    border: none;
-    border-radius: 4px;
-    padding: 16px 32px;
-    min-width: 169px;
+
 }
 
 .hero-button:hover,
@@ -189,7 +188,7 @@ background-color: #4d5ae5;
 }
 
 .team-card-content {
-    padding: 32px 16px;
+    padding: 32px 0;
     text-align: center;
 }
 
@@ -202,7 +201,7 @@ background-color: #4d5ae5;
     color: #2E2F42;
     margin-bottom: 72px;
     text-transform: capitalize;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 .team-name {
@@ -301,7 +300,7 @@ background-color: #4d5ae5;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-bottom: 8px;
+    margin: 8px;
 }
 
 .features-text {
@@ -311,3 +310,12 @@ background-color: #4d5ae5;
     color: #434455;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
