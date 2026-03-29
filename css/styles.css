@@ -116,6 +116,8 @@ img {
 }
 
 .contact-link {
+display: block;
+padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -171,7 +173,6 @@ img {
 
 .team {
     background-color: #F4F4FD;
-    padding: 120px 0;
 }
 
 .team-list {
